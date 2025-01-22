@@ -208,10 +208,6 @@ int main () {
 
 	fsm_t* arkanoPi_fsm = fsm_new (WAIT_START, arkanoPi, &sistema);
 
-
-
-	// A completar por el alumno...
-	// ...
 	fsm_t* trans_col_fsm = fsm_new (TECLADO_ESPERA_COLUMNA, fsm_trans_excitacion_columnas, &(teclado));
 	fsm_t* det_tecla_fsm = fsm_new (TECLADO_ESPERA_TECLA, fsm_trans_deteccion_pulsaciones, &(teclado));
 	fsm_t* led_display_fsm = fsm_new(DISPLAY_ESPERA_COLUMNA,fsm_trans_excitacion_display, &(led_display));
