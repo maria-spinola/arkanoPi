@@ -1,1 +1,1 @@
-Version del juego Arkano para raspberryPi. Programada en C. 
+Arkanoid game version for Raspberry Pi. Programmed in C.
